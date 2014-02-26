@@ -8,17 +8,28 @@ w/ an Angular app. This example app relies on (among other things):
 * Passport
 * Express
 
-## To run this example:
+## Running the example
+
+### Start the API
 
 ```
 $ cd api && grunt api-server
 
 ```
 
+### Start the UI
+
+If you haven't already, install bower && component globally:
+
+```
+$ npm install -g bower
+$ npm install -g component
+```
+
 And in another terminal/session (or same window if you made the process go into background):
 
 ```
-$ cd ui && grunt ui-server
+$ cd ui && grunt && grunt ui-server
 
 ```
 
