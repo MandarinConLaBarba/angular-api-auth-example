@@ -19,7 +19,7 @@ $ cd api && grunt api-server
 
 ### Start the UI
 
-If you haven't already, install bower && component globally:
+If you haven't already, install bower and component globally:
 
 ```
 $ npm install -g bower
