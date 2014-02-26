@@ -72,7 +72,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-shell');
 
     //Define tasks
-    grunt.registerTask('server', 'Start UI server', function() {
+    grunt.registerTask('ui-server', 'Start UI server', function() {
 
         var done = this.async();
 
